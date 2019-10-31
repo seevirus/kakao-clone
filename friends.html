@@ -11,14 +11,15 @@
 </head>
 
 <body>
-    <div class="status=bar">
-        <div class="status-bar__column"></div>
-        <span class="status-bar__clock">13:54</span>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span class="status-bar__clock">13:54</span>
+        </div>
         <div class="status-bar__column">
             <i class="fas fa-clock"></i>
             <i class="fas fa-volume-mute"></i>
             <i class="fas fa-wifi"></i>
-            <span class="stauts-bar__battery-level">100%</span>
+            <span class="status-bar__battery-level">100%</span>
             <i class="fas fa-battery-full"></i>
 
         </div>
@@ -28,27 +29,30 @@
     <header class="header">
         <div class="header__header-column">
             <h1 class="header__title">Friends</h1>
+        </div>
+        <div class="header__header-column">
             <span class="header__icon">
                 <i class="fas fa-search"></i>
             </span>
             <span class="header__icon">
                 <i class="fas fa-cog"></i>
             </span>
+
         </div>
-        <div class="header__header-column"></div>
     </header>
     <main class="friends">
         <header class="friends__header">
-            <div class="friends__friend friend--lg">
+            <div class="friends__friend friend">
                 <div class="friend__column">
                     <img src="images/avatar.jpg" alt="" class="g-avatar friend__avatar" />
                     <div class="friend__content">
-                        <span class="friend__name">
+                        <span class="friend__profile">
                             Kim Suhyun
-                            <span class="friend__status">
-                                Hi! Friends~
-                            </span>
                         </span>
+                        <span class="friend__status">
+                            Hi! Friends~
+                        </span>
+
                     </div>
                 </div>
             </div>
@@ -57,7 +61,7 @@
             <h5 class="friends__title">Plus friend</h5>
             <div class="friends__friend friend">
                 <div class="friend__column">
-                    <img src="images/avatar.jpg" alt="" class="g-avatar friend__avatar" />
+                    <img src="images/avatar.jpg" alt="" class="friend__avatar" />
                     <div class="friend__content">
                         <span class="friend__name">
                             Plus Friend
@@ -67,16 +71,16 @@
             </div>
         </div>
         <ul class="friends__list">
-            <h5 class="friends_title">friends 14</h5>
-            <li class="friends__friend friend--lg">
+            <h5 class="friends__title">friends 14</h5>
+            <li class="friends__friend friend">
                 <div class="friend__column">
-                    <img src="images/avatar.jpg" alt="" class="g-avatar friend__avatar" />
+                    <img src="images/avatar.jpg" alt="" class="friend__avatar" />
                     <div class="friend__content">
                         <span class="friend__name">
                             Kim Suhyun
-                            <span class="friend__status">
-                                Hi! Friends~
-                            </span>
+                        </span>
+                        <span class="friend__status">
+                            Hi! Friends~
                         </span>
                     </div>
                 </div>
@@ -85,7 +89,7 @@
                         <span>
                             FTISLAND (FT Arthur Kim)
                         </span>
-                        <i class="fas fa-play"></i>
+                        <i class="far fa-play-circle"></i>
                     </div>
                 </div>
             </li>
